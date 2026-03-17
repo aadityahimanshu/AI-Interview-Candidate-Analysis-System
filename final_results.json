@@ -1,0 +1,15 @@
+{
+    "final_score": 67.08,
+    "recommendation": "Consider",
+    "competency": "communication",
+    "personality": "ESFP",
+    "emotions": {
+        "angry": 0.07167167167167166,
+        "disgust": 0.0002002002002002002,
+        "fear": 0.0876876876876877,
+        "happy": 0.006806806806806809,
+        "sad": 0.1057057057057057,
+        "surprise": 0.021221221221221227,
+        "neutral": 0.7067067067067067
+    }
+}

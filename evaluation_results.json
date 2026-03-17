@@ -1,0 +1,42 @@
+{
+    "accuracy": 0.7160493827160493,
+    "classification_report": {
+        "Leadership": {
+            "precision": 0.7391304347826086,
+            "recall": 0.6296296296296297,
+            "f1-score": 0.68,
+            "support": 27.0
+        },
+        "communication": {
+            "precision": 0.9285714285714286,
+            "recall": 0.65,
+            "f1-score": 0.7647058823529411,
+            "support": 20.0
+        },
+        "positive_attitude": {
+            "precision": 0.6521739130434783,
+            "recall": 0.9375,
+            "f1-score": 0.7692307692307693,
+            "support": 16.0
+        },
+        "teamwork": {
+            "precision": 0.6190476190476191,
+            "recall": 0.7222222222222222,
+            "f1-score": 0.6666666666666666,
+            "support": 18.0
+        },
+        "accuracy": 0.7160493827160493,
+        "macro avg": {
+            "precision": 0.7347308488612837,
+            "recall": 0.734837962962963,
+            "f1-score": 0.7201508295625942,
+            "support": 81.0
+        },
+        "weighted avg": {
+            "precision": 0.7420443217544667,
+            "recall": 0.7160493827160493,
+            "f1-score": 0.7155779006759398,
+            "support": 81.0
+        }
+    }
+}
