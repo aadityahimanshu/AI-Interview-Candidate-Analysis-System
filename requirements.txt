@@ -7,8 +7,8 @@ nltk==3.6.3
 textblob==0.15.3
 pandas
 scikit-learn
-joblib==1.0.1
-imbalanced-learn==0.8.0
+joblib
+imbalanced-learn
 numpy
 pydub==0.25.1
 matplotlib>=3.10.0
