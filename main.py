@@ -4,7 +4,7 @@ import json
 import os
 import speech_recognition as sr
 from textblob import TextBlob
-from fer import FER
+# from fer import FER
 import librosa
 import joblib
 import pandas as pd
@@ -41,7 +41,7 @@ models = load_models()
 
 def analyze_video(video_path):
 
-    detector = FER()
+    detector = None
     cap = cv2.VideoCapture(video_path)
 
     emotions = []
@@ -68,11 +68,8 @@ def analyze_video(video_path):
 
         total_frames += 1
 
-        result = detector.detect_emotions(frame)
-
-        if result:
-            emotion = max(result[0]["emotions"], key=result[0]["emotions"].get)
-            emotions.append(emotion)
+        # Emotion detection disabled for cloud deployment
+        emotions.append("neutral")
 
         gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
