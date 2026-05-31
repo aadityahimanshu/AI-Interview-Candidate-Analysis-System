@@ -12,4 +12,4 @@ joblib==1.0.1
 imbalanced-learn==0.8.0
 numpy
 pydub==0.25.1
-matplotlib==3.4.3
+matplotlib>=3.10.0
