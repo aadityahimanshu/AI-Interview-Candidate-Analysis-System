@@ -1,5 +1,5 @@
 librosa==0.9.2
-opencv-python==4.5.5.64
+opencv-python-headless
 moviepy==1.0.3
 fer==21.0.5
 speechrecognition==3.8.1
