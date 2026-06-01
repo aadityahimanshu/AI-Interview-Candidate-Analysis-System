@@ -1,5 +1,6 @@
 librosa>=0.11.0
 opencv-python-headless
+spacy==3.8.7
 moviepy==1.0.3
 speechrecognition==3.8.1
 nltk==3.6.3
