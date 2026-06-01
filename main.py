@@ -295,6 +295,7 @@ def record_live_interview(duration=20):
     cap.release()
     out.release()
     cv2.destroyAllWindows()
+    pass
 
     return filename
 
